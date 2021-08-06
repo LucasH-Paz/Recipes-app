@@ -8,7 +8,6 @@ You can check a demonstration of the application running clicking at the link be
 [watch a video of demonstration.](https://youtu.be/OX5L9WWe3xc)
 
 <img src="./src/images/home.png" height="200">
-<span>_</span>
 <img src="./src/images/details.png" height="200">
 
 
@@ -36,17 +35,17 @@ You can check a demonstration of the application running clicking at the link be
 To run this project, install it locally using npm:
 1.  Open the terminal and create a local directory:
 ``` 
-	mkdir projects
+  mkdir projects
  ```
 2.  Clone the project:
 ```
-	cd projects
-	git clone https://github.com/LucasH-Paz/Recipes-app.git
+cd projects
+  git clone https://github.com/LucasH-Paz/Recipes-app.git
   ```
   3.  Install dependencies:
-  ```
-	 cd RecipesApp
-	 npm i
+```
+	cd RecipesApp
+	npm i
   ```
   4.  For last, run  **npm start**  to open the app in your browser;
 
