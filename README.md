@@ -1,5 +1,5 @@
 # Recipes App
-A simple application that allows you to check many recipes from all over the world. In this project, the main objective was to develop an application that consults two APIs and show in a user-friendly way recipes and its specifications. This application had been built using react, CSS, HTML and react hooks. Enjoy the tour!
+A simple application that allows you to check many recipes from all over the world. In this project, the main objective was to develop an application that consults two APIs and show in a user-friendly way recipes and its specifications. This application had been built using react, CSS, HTML and react hooks. Enjoy the tour! 
 <br>
 The main objective of this project was to put into practice all the knowledge acquired at Trybe in the Front-End module, creating a real and functional application.
 
