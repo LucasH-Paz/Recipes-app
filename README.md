@@ -1,5 +1,5 @@
 # Recipes App
-A simple application that allows you to check many recipes from all over the world. In this project, the main objective was to develop an application that consults two APIs and show in a user-friendly way recipes and its specifications. This application had been built using react, CSS, HTML and react hooks. Enjoy the tour!
+A simple application that allows you to check many recipes from all over the world. In this project, the main objective was to develop an application that consults two APIs and show in a user-friendly way recipes and its specifications. This application had been built using react, CSS, HTML and react hooks. Enjoy the tour! 
 <br>
 The main objective of this project was to put into practice all the knowledge acquired at Trybe in the Front-End module, creating a real and functional application.
 
@@ -35,17 +35,17 @@ You can check a demonstration of the application running clicking at the link be
 To run this project, install it locally using npm:
 1.  Open the terminal and create a local directory:
 ``` 
-  mkdir projects
- ```
+mkdir projects
+```
 2.  Clone the project:
 ```
 cd projects
-  git clone https://github.com/LucasH-Paz/Recipes-app.git
-  ```
+git clone https://github.com/LucasH-Paz/Recipes-app.git
+```
   3.  Install dependencies:
 ```
-	cd RecipesApp
-	npm i
-  ```
+cd RecipesApp
+npm i
+```
   4.  For last, run  **npm start**  to open the app in your browser;
 
