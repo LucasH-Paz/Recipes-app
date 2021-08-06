@@ -8,7 +8,6 @@ You can check a demonstration of the application running clicking at the link be
 [watch a video of demonstration.](https://youtu.be/OX5L9WWe3xc)
 
 <img src="./src/images/home.png" height="200">
-<span>_</span>
 <img src="./src/images/details.png" height="200">
 
 
