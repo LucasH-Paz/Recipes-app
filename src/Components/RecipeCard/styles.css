@@ -19,3 +19,9 @@
   max-width: 44%;
 }
 
+@media screen and (min-width: 1024px) {
+  .card {
+    max-width: 24%;
+  }
+}
+
