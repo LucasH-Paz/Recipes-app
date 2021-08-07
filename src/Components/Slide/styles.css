@@ -44,3 +44,17 @@
   margin: 0;
   margin-bottom: 0.3rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .suggestions-carousel {
+    width: 80vw;
+  }
+  
+  .box {
+    min-width: 15vw;
+  }
+
+  .box img {
+    max-width: 100%;
+  }
+}

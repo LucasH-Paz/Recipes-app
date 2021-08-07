@@ -14,6 +14,7 @@ function Video({ recipeType, recipesDetails }) {
               title="How to do"
               style={ { border: 'none' } }
               allowFullScreen
+              height="200"
             />
           </div>)
         : ''}
