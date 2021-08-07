@@ -5,7 +5,7 @@ import { Card } from 'react-bootstrap';
 import './styles.css';
 
 function RecipeCard({ recipesArray }) {
-  const NUMBER_OF_CARDS = 12;
+  const NUMBER_OF_CARDS = 40;
   const { pathname } = useLocation();
   const toggleApiReturn = (pathname.includes('comidas')) ? 'strMeal' : 'strDrink';
   const toggleLink = (pathname.includes('comidas')) ? 'comidas' : 'bebidas';

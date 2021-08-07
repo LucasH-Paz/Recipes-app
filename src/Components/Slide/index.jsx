@@ -8,7 +8,7 @@ function Slide({ toggle, category, cleanState }) {
   const [recomendations, setRecomendations] = useState([]);
   const fixedToggle = toggle === 'Meal' ? 'Drink' : 'Meal';
   const fixedCategory = category === 'strCategory' ? 'strAlcoholic' : 'strCategory';
-  const MAX_NUMBER_SUGGESTIONS = 6;
+  const MAX_NUMBER_SUGGESTIONS = 20;
 
   useEffect(() => {
     if (fixedToggle === 'Drink') {

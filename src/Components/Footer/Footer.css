@@ -1,10 +1,8 @@
 .footer-container {
   bottom: 0;
-  margin: 0;
   position: fixed;
   right: 0;
   width: 100vw;
-
 }
 
 .footer {
@@ -15,4 +13,18 @@
   margin: 0;
   min-height: 10vh;
   text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .footer-container {
+    width: 20vw;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .footer {
+    border-radius: 2rem 2rem 0 0;
+  }
+
 }

@@ -1,7 +1,7 @@
 const MEALS_RECIPES = 'https://www.themealdb.com/api/json/v1/1/search.php?s=';
 const DRINKS_RECIPES = 'https://www.thecocktaildb.com/api/json/v1/1/search.php?s=';
 
-const NUMBER_INDEX = 12;
+const NUMBER_INDEX = 20;
 
 export async function getMeals() {
   const response = await fetch(MEALS_RECIPES);

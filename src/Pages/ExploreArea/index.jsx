@@ -4,6 +4,7 @@ import Footer from '../../Components/Footer';
 import Loading from '../../Components/Loading';
 import MealsCard from '../../Components/MealsCard';
 import { fetchAllOrigin, fetchByArea, fetchItAll } from '../../services/fetchRecipes';
+import './styles.css';
 
 function MealsByOrigin() {
   const [data, setData] = useState([]);
@@ -22,18 +23,25 @@ function MealsByOrigin() {
   }, []);
 
   const dropdown = (testid, id, options) => (
-    <select className="select" data-testid={ testid } id={ id } onChange={ handleChange }>
-      <option data-testid="All-option" value="All">All</option>
-      { options.map(({ strArea: area }) => (
-        <option
-          data-testid={ `${area}-option` }
-          id={ area }
-          key={ area }
-          value={ area }
-        >
-          { area }
-        </option>)) }
-    </select>
+    <div className="select-size">
+      <select
+        className="form-select"
+        data-testid={ testid }
+        id={ id }
+        onChange={ handleChange }
+      >
+        <option data-testid="All-option" value="All">All</option>
+        { options.map(({ strArea: area }) => (
+          <option
+            data-testid={ `${area}-option` }
+            id={ area }
+            key={ area }
+            value={ area }
+          >
+            { area }
+          </option>)) }
+      </select>
+    </div>
   );
 
   if (!areas) return <Loading />;
